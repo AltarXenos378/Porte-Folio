@@ -1,0 +1,229 @@
+
+/*________________________ Style background____________________________*/
+
+body{
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: scroll;
+}
+
+
+/*________________________ Style the header____________________________*/
+
+ul {                             /*barre de navigation (la forme)*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+ul.scroller{
+  position: fixed;
+}
+
+#logo {                      /*logo de la barre de navigation*/
+    float:left;
+    width: 70px;
+    height: 70px;
+  }
+
+.li-spacial{
+    float: left;
+    margin-left:1px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+  
+  .li {
+    float: right;
+    margin-right: 6px;
+  }
+  
+  .lien {             /*style des liens de la barre de navigation (avant la souris)*/
+    display: block;
+    color: #3b3b3b;
+    border-radius: 8px;
+    border-color: #ffffff;
+    text-align: center;
+    margin-top: 6px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+  }
+  
+ 
+  .lien:hover {       /*style des liens de la barre de navigation (après la souris)*/
+    background-color: #490941;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: 0.3s;
+    color:white;
+  }
+
+  /*________________________ Style du titre____________________________*/
+
+  @keyframes déplacement{
+    
+  }
+
+  #title-div{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    height: 100px;
+    z-index: 1;
+    Overflow: hidden;
+    transition: 0.3s;
+  }
+ 
+  #title-div.scrolled{
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.3s;
+  }
+
+  #title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    transition: 0.3s;
+    
+  }
+
+  #title.scrolle{
+    color: rgba(255, 255, 255, 0);
+    transition: 0.3s;
+  }
+
+
+
+
+  /*________________________ Style des articles____________________________*/
+
+#div1{
+    display: flex; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 250px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+#div2{                                         /*Système à garder*/
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 230px;
+    height: 230px;
+    
+}
+
+#div3{                                         /*Système à garder*/
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 80%;
+    height: 150px;
+    margin-left: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+
+#div3:hover{
+    height:330px;
+    overflow: scroll; 
+    transition: 0.5s;
+}
+
+p{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(63, 37, 63);
+    margin-left: 10px;
+    transition: 0.5s;
+    
+}
+
+#link:hover{
+    margin-left: 30px;
+    color: rgb(53, 53, 53);
+    transition: 0.5s;
+}
+
+/*________________________ Style des caractères____________________________*/
+
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+h3:hover{
+    margin-left: +20px;
+    transition: 0.3s;
+    border-left: rgb(76, 41, 99) 2px solid;
+    border-width: 5px;
+    padding-left: 10px;
+    
+}
+
+/*________________________ Style des images____________________________*/
+
+#img{
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 7%;
+  margin-top: 7%;
+  transition: 0.3s;
+}
+
+#img:hover{
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  transform: (0.1);
+  transition: 0.3s;
+}
+
+/*________________________ Style du footer____________________________*/
+
+.footer {
+    margin-top: 350px;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    color: #3b3b3b;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+
