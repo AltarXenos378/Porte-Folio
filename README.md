@@ -12,5 +12,23 @@ Une fois le site terminé, il aura pour vocation de nous servir de CV pour une p
 # Nos avancées
 Nous avons mis un point d'honneur sur l'ésthétique de notre site web en passant par des animations dynamiques et fluides. Le fait que la barre de navigation se réduise après un scroll est entièrement voulu car nous avons jugé que cela pourrait apporter un côté esthétique et pratique. Ce système n'est pas encore au point car l'animation n'est pas encore assez fluide.
 
-# Nos problèmes
-Notre plus gros problème est 
+# Nos ambitions
+Nous avons pour ambition de rendre l'architecture de notre site web toujours plus fluide de sorte à ce qu'elle reflète au mieux la qualité de notre travail. L'esthétique est une chose, mais nous souhaitons avant tout que nos sites aient une valeur pratique.
+
+# Version actuelle
+La version actuelle est la: 1.0.1
+Features principales: Code mieux organisé et amélioré.
+
+# Version avenir
+Prochaine version: 1.1.0
+
+Features en vue: 
+- Changement drastique du thème (thème sombre)
+- Amélioration de l'alignement de la barre de navigation + Logo en version blanche
+- Fluidification généralisée des animations
+
+Règlages futures:
+- Suppression du bug de scroll sur la page index
+      => Baisse du scroll pixel requis pour le déclanchement de l'animation
+      => Ajout de contenu sur la page
+
