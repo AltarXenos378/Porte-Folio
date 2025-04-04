@@ -1,0 +1,267 @@
+
+/*________________________ Style background____________________________*/
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: scroll;
+    color: #d0d0d0;
+}
+
+
+/*________________________ Style the header____________________________*/
+
+ul {                             /*barre de navigation (la forme)*/
+    list-style-type: none;
+    border: solid 2px #707070;  /*En test*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e2e2e;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+ul.scroller{
+  position: fixed;
+  border: solid 2px #707070;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#logo {                      /*logo de la barre de navigation*/
+    float:left;
+    width: 70px;
+    height: 70px;
+  }
+
+.li-spacial{
+    float: left;
+    margin-left:1px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+  
+  .li {
+    float: right;
+    margin-right: 6px;
+  }
+  
+  .lien {             /*style des liens de la barre de navigation (avant la souris)*/
+    display: block;
+    color: #a094a3;
+    border-radius: 8px;
+    border-color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+  }
+  
+ 
+  .lien:hover {       /*style des liens de la barre de navigation (après la souris)*/
+    background-color: #520d4e;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: 0.3s;
+    color: #f0f0f0;
+  }
+
+  /*________________________ Style du titre____________________________*/
+
+  @keyframes déplacement{
+    
+  }
+
+  #title-div{
+    background-color: #2e2e2e;
+    border: solid 2px #707070; /*En test*/
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    height: 100px;
+    z-index: 1;
+    Overflow: hidden;
+    transition: 0.3s;
+  }
+ 
+  #title-div.scrolled{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(36, 36, 36, 0.0);
+    transition: 0.3s;
+  }
+
+  #title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d0d0d0;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    transition: 0.3s;
+    
+  }
+
+  #title.scrolle{
+    color: rgba(255, 255, 255, 0);
+    transition: 0.3s;
+  }
+
+
+
+
+  /*________________________ Style des articles____________________________*/
+
+#div1{
+    display: flex; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 250px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+#div2{                                         /*Système à garder*/
+    background-color: rgba(36, 36, 36, 0.8);
+    border-radius: 20px;
+    border: solid 2px #707070;
+    width: 230px;
+    height: 230px;
+    
+}
+
+#div3{                                         /*Système à garder*/
+    background-color: rgba(36, 36, 36, 0.8);
+    border: solid 2px #707070;
+    border-radius: 10px;
+    width: 80%;
+    height: 150px;
+    margin-left: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+#div3:hover{
+    height:330px;
+    overflow: scroll; 
+    transition: 0.5s;
+}
+
+
+/*_______________________Autres Div____________________________*/
+
+#div-connection{
+  
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  z-index: 1;
+  background-color: rgba(0, 183, 255, 0.493);
+  height: 30px;
+  transition: 1s;
+  
+  
+}
+
+#div-connection:hover{
+  border-radius: 10;
+  background-color: rgba(0, 217, 255, 0.918);
+  height: 100px;
+  transition: 1s;
+}
+
+
+p{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+    color: #9b4d95;
+    margin-left: 10px;
+    transition: 0.5s;
+    
+}
+
+#link:hover{
+    margin-left: 30px;
+    color: #c270b9;
+    transition: 0.5s;
+}
+
+/*________________________ Style des caractères____________________________*/
+
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d0d0d0;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+h3:hover{
+    margin-left: +20px;
+    transition: 0.3s;
+    border-left: #7a2b73 2px solid;
+    border-width: 5px;
+    padding-left: 10px;
+    
+}
+
+/*________________________ Style des images____________________________*/
+
+#img{
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 7%;
+  margin-top: 7%;
+  transition: 0.3s;
+}
+
+#img:hover{
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  transform: (0.1);
+  transition: 0.3s;
+}
+
+/*________________________ Style du footer____________________________*/
+
+.footer {
+    margin-top: 350px;
+    left: 0;
+    bottom: 0;
+    background-color: #383838;
+    border: solid 2px #707070;
+    color: #a094a3;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
